@@ -1,0 +1,23 @@
+.header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  width: auto;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo, .navlinks {
+  display: inline-flex;
+}
+
+.logo h3 {
+  color: MediumAquamarine;
+  align-content: center;
+}
+
+.navlinks {
+display: flex;
+justify-content: space-around;
+}
